@@ -1,12 +1,13 @@
-import React from "react";
-
+import "../../src/index.css";
 export const Navbar = () => {
   return (
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/pricing">Pricing</a>
-      <a href="/contact">Contact</a>
-    </nav>
+    <div className="navbar-container">
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/pricing">Pricing</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </div>
   );
 };
