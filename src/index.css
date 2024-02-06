@@ -32,3 +32,10 @@ body {
   align-items: center;
   gap: 1rem;
 }
+
+.navbar-container li:hover {
+  background-color: #777;
+}
+.navbar-container li.active {
+  background-color: #555;
+}
